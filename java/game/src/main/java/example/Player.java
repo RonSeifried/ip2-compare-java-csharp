@@ -10,8 +10,5 @@ public class Player extends Character {
         System.out.println(name + " attacks with sword!");
     }
 
-    public void heal(int amount) {
-        this.health += amount;
-    }
 }
 

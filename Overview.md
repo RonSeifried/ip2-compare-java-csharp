@@ -182,6 +182,6 @@ dotnet run
 
 ## Helpful Resources
 
-- https:learn.microsoft.com/dotnet/csharp/
-- https:learn.microsoft.com/dotnet/core/tutorials/
-- https:docs.godotengine.org/en/stable/tutorials/scripting/c_sharp/
+- <https:learn.microsoft.com/dotnet/csharp/>
+- <https:learn.microsoft.com/dotnet/core/tutorials/>
+- <https:docs.godotengine.org/en/stable/tutorials/scripting/c_sharp/>

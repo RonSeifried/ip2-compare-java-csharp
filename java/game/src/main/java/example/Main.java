@@ -1,8 +1,9 @@
 package example;
 
 public class Main {
+
     public static void main(String[] args) {
-        Player p1 = new Player("Alex", 100);
+        Player p1 = new Player("Alex", 75);
         Enemy e1 = new Enemy("Goblin", 30);
 
         GameManager gm = new GameManager();
@@ -10,17 +11,13 @@ public class Main {
         gm.addCharacter(e1);
 
         gm.printAliveCharacters();
+        
+        gm.printCharacterByName("Alex");
 
-        Player p2 = (Player) gm.getCharacterByName("Alex");
-        System.out.println("Found player: " + p2.getName());
-
-        if (p2.getName() != null) {
-            System.out.println(p2.getName().toUpperCase());
-        }
-
-        // Factory
-        Character newChar = CharacterFactory.create("enemy", "Orc", 50);
-        gm.addCharacter(newChar);
+        Character e2 = CharacterFactory.create("enemy", "Orc", 50);
+        gm.addCharacter(e2);
+        Character p2 = CharacterFactory.create("player", "Mark", 100);
+        gm.addCharacter(p2);
         gm.printAliveCharacters();
     }
 }

@@ -1,5 +1,7 @@
 package example;
 
+// This class showcases the Factory design pattern in Java.
+// It demonstrates the use of a static method to create objects based on a type parameter.
 public class CharacterFactory {
 
     private CharacterFactory() {

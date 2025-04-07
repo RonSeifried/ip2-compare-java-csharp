@@ -1,5 +1,7 @@
 package example;
 
+// This abstract class showcases inheritance and polymorphism in Java.
+// It defines common properties and methods for all characters, such as name, health, and the isAlive method.
 public abstract class Character {
     protected String name;
     protected int health;
